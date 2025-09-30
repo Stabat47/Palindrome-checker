@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Palindrome Checker</title>
+</head>
+<body>
+    <main>
+        <h1>Is it a Palindrome?</h1>
+
+        <div class="pal-div">
+            <label for="text-input">Enter text to check:</label>
+            <input type="text" id="text-input" class="input" placeholder="Type here..." required>
+            <button id="check-btn" class="button">Check</button>
+            <div id="result" class="results" aria-live="polite"></div>
+        </div>
+
+        <div class="palindrome-def">
+            <p>
+                💡 A <em>palindrome</em> is a word or sentence that reads the same forward and backward, ignoring punctuation, spacing, and capitalization.
+            </p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
