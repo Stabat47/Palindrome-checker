@@ -28,13 +28,15 @@ A simple, responsive web app that checks if the entered text is a **palindrome**
 ---
 
 ## 📂 Project Structure
-
+```bash
 Palindrome-Checker/
 │
 ├── index.html      # Main HTML file
 ├── styles.css      # Stylesheet for styling
 ├── script.js       # JavaScript logic
 └── README.md       # Project documentation
+
+```
 
 ## 📖 How to Use
 1. Type a word or sentence in the input field.
