@@ -28,7 +28,7 @@ A simple, responsive web app that checks if the entered text is a **palindrome**
 ---
 
 ## 📂 Project Structure
-```bash
+
 Palindrome-Checker/
 │
 ├── index.html      # Main HTML file
